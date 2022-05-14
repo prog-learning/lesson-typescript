@@ -3,9 +3,8 @@
 ## Setup
 
 ```sh
-yarn init -y
-yarn add -D typescript
-npx tsc --init
+npm install -g typescript
+tsc --init
 ```
 
 ## Points
