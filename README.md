@@ -16,3 +16,5 @@ npx tsc --init
 ## おすすめの教材
 
 - https://typescriptbook.jp/
+- https://qiita.com/ryokkkke/items/390647a7c26933940470
+- https://qiita.com/k-penguin-sato/items/e2791d7a57e96f6144e5
