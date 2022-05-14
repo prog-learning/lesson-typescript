@@ -2,8 +2,15 @@
 
 ## Setup
 
+TypeScript の install
+
 ```sh
 npm install -g typescript
+```
+
+TypeScript の 設定ファイルの生成
+
+```sh
 tsc --init
 ```
 

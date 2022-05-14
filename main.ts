@@ -4,6 +4,7 @@ const age: number = 123; // 数値
 const isActive: boolean = true; // 真偽値
 const container: null = null; // null
 const box: undefined = undefined; // undefined
+const allType: any = 123;
 
 /* 配列の型 */
 const numbers: number[] = [1, 2, 3];
@@ -25,6 +26,7 @@ const foo: StringOrNumber = 'foo';
 const bar: StringOrNumber = 123;
 
 type Color = 'red' | 'blue' | 'green';
+const color: Color = 'red';
 
 /* Utility Types */
 
@@ -34,6 +36,7 @@ const userName: UserName = { name: 'taro' };
 
 // Record
 type ColorList = Record<number, Color>;
+// type ColorList = { [key: string]: Color };
 
 const colorList: ColorList = {
   0: 'red',
@@ -46,6 +49,5 @@ const colorList: ColorList = {
 
 /* Generics */
 const getValue = <T>(value: T): T => value;
-
 const valueStr = getValue<string>('foo');
 const valueNum = getValue<number>(123);
